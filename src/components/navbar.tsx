@@ -35,7 +35,12 @@ export default function Navbar(): JSX.Element {
         {
             <>
             <div className="navbar-left">
+                <Link
+                    key={0}
+                    href="/"
+                >
                 <i className="material-icons">computer</i>
+                </Link>
             </div>
             <div className="navbar-center">
                 <ul className="navbar-links">
