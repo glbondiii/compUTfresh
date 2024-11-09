@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar";
 
-export default function StyleCheckerPage() {
+export default function StyleCheckerPage(): JSX.Element {
     return (
         <>
         <Navbar/>
