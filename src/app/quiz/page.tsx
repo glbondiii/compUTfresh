@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar"
 
-export default function QuizPage() {
+export default function QuizPage(): JSX.Element {
     return (
         <>
         <Navbar/>

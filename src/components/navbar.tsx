@@ -24,11 +24,11 @@ const links: lk[] = [
     new lk("Style Checker", "/stylechecker", 2)
 ];
 
-function handleClick() {
+function handleClick(): void {
     alert("Please login through the linked page");
 }
 
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
     return (
         <div>
         <nav className="navbar">
