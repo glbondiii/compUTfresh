@@ -1,0 +1,16 @@
+.navbar {
+    font-family: 'Courier New', sans-serif;
+    display :flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #BF5700;
+    color: #fff;
+    padding: 1rem;
+
+}
+.navbar a{
+   color: #fff;
+}
+.navbar-left:hover {
+    width: 1000px;
+}
