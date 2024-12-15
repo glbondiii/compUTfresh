@@ -19,6 +19,9 @@
             pkgs.typescript
           ];
           buildInputs = [ ];
+          shellHook = ''
+            nix flake update
+          '';
         };
       });
 }
